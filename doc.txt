@@ -1,0 +1,45 @@
+Features:
+*- protect tab (ctrl + shift + p)
+*- protect children tabs (ctrl + alt + p)
+*- reload all tabs in window (ctrl + shift + r)
+*- reload all children tabs (menu action)
+- reload all tabs in all windows (menu action)
+*- create tab right next to the one selected tab (using ctrl + alt + t)
+- Be able to reverse order of child tabs (ctrl + alt + r)
+- Be able to create a separator between tabs (view and search tabs)
+- Be able to create a separator for child tabs only
+*- When moving tabs or detaching a tab, choose to detach with their child (menu action)
+- Close all tabs on the left (menu action)
+
+
+- Have all options customizable via hotkeys
+
+
+Bugs:
+- Potential issues with removing tabs. When removing tabs, if the internal structure is not updated and we make a call like looping through all the children and calling chrome.tabs.XXX(undefined) it might cause some issues.
+A good way to fix that is to return chromeTabs instead of InternalTabs when making manipulations with chrome.tabs
+
+TODO:
+- add code on github
+- add code on google-project
+- add wiki details
+
+
+--------------------------
+Features:
+-protect tab (CTRL+SHIFT+P)
+-protect children tabs (menu)
+-reload all tabs (CTRL+SHIFT+R)
+-reload children tab (menu)
+-create tab on the right (CTRL+SHIFT+1)
+-close tabs on the left (menu)
+-Detach tab and children into new window (menu)
+
+TODO:
+-add icons
+-add more actions
+-add options page to customize hotkeys
+
+Developers:
+Feel free to send me suggestions/features. However, I will only develop stuff I would like to use.
+Project hosted here:

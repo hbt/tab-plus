@@ -1,0 +1,13 @@
+tab-plus
+
+Chrome extension to manipulate tabs and later replaced by vimum / vrome
+
+
+Features:
+- protect tab (CTRL+SHIFT+P)
+- protect children tabs (menu)
+- reload all tabs (CTRL+SHIFT+R)
+- reload children tab (menu)
+- create tab on the right (CTRL+SHIFT+1)
+- close tabs on the left (menu)
+- Detach tab and children into new window (menu)
